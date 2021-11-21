@@ -1,14 +1,8 @@
 from aiogram import types
-
+from keyboards.inline import InlineKeyBoard
 from aiogram.dispatcher import FSMContext
 
 from loader import dp, bot
-
-@dp.message_handler(state=None)
-async def categoryes(message: types.Message):
-    hello_word = "Список категорий:"
-    await bot.send_message(message.from_user.id, hello_word, reply_markup=await InlineKeyBoard.creat_categoryes_kb)
-
 
 
 # Эхо хендлер, куда летят текстовые сообщения без указанного состояния
