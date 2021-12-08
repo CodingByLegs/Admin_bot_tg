@@ -11,8 +11,6 @@ from loader import dp, bot
 #    await message.answer(f"Эхо без состояния."
 #                         f"Сообщение:\n"
 #                         f"{message.text}")
-#
-#
 # Эхо хендлер, куда летят ВСЕ сообщения с указанным состоянием
 #@dp.message_handler(state="*", content_types=types.ContentTypes.ANY)
 #async def bot_echo_all(message: types.Message, state: FSMContext):

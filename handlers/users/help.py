@@ -9,5 +9,4 @@ from loader import dp
 #    text = ("Список команд: ",
 #            "/start - Начать диалог",
 #            "/help - Получить справку")
-#
 #    await message.answer("\n".join(text))
