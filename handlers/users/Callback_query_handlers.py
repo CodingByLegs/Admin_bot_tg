@@ -1,10 +1,9 @@
 from aiogram.types import CallbackQuery
 
 from keyboards.inline.InlineKeyBoard import refresh_categories_kb
-from keyboards.inline.InlineKeyboardThings import refresh_things_kb
+
 from loader import bot, dp
-from keyboards.inline.callback_dates import page_callback
-from keyboards.inline.callback_dates import thing_page_callback
+from keyboards.inline.callback_dates import page_callback, refresh_things_kb, thing_page_callback
 from aiogram import types
 from aiogram.dispatcher import FSMContext
 from keyboards.inline import InlineKeyBoard
